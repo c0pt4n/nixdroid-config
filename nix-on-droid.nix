@@ -82,8 +82,15 @@
 
   # Read the changelog before changing this value
   system.stateVersion = "24.05";
-  
+
   time.timeZone = "Africa/Cairo";
+
+  home-manager = {
+    useGlobalPkgs = true;
+    useUserPackages = true;
+	backupFileExtension = "hm-backup";
+    config = import ./home.nix;
+  };
 
   # Set up nix for flakes
   nix.extraOptions = ''
