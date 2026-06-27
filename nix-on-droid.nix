@@ -33,7 +33,6 @@
       starship
       bat
       git
-      delta
       gh
       fzf
       ripgrep
