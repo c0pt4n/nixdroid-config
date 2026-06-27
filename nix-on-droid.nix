@@ -8,6 +8,9 @@
       zsh
       neovim
       procps
+	  coreutils
+	  which
+	  gawk
       killall
       diffutils
       findutils
