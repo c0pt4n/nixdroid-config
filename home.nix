@@ -64,7 +64,6 @@
       buf.symbol = " ";
       bun.symbol = " ";
       c.symbol = " ";
-      cpp.symbol = " ";
       cmake.symbol = " ";
       conda.symbol = " ";
       crystal.symbol = " ";
@@ -75,7 +74,6 @@
       elixir.symbol = " ";
       elm.symbol = " ";
       fennel.symbol = " ";
-      fortran.symbol = " ";
       fossil_branch.symbol = " ";
       gcloud.symbol = " ";
       git_branch.symbol = " ";
@@ -105,11 +103,9 @@
         Android = " ";
         Arch = " ";
         Artix = " ";
-        CachyOS = " ";
         CentOS = " ";
         Debian = " ";
         DragonFly = " ";
-        Elementary = " ";
         Emscripten = " ";
         EndeavourOS = " ";
         Fedora = " ";
@@ -118,7 +114,6 @@
         Gentoo = " ";
         HardenedBSD = "󰞌 ";
         Illumos = "󰈸 ";
-        Ios = "󰀷 ";
         Kali = " ";
         Linux = " ";
         Mabox = " ";
@@ -129,7 +124,6 @@
         Mint = " ";
         NetBSD = " ";
         NixOS = " ";
-        Nobara = " ";
         OpenBSD = "󰈺 ";
         openSUSE = " ";
         OracleLinux = "󰌷 ";
@@ -145,13 +139,11 @@
         Unknown = " ";
         Void = " ";
         Windows = "󰍲 ";
-        Zorin = " ";
       };
       package.symbol = "󰏗 ";
       perl.symbol = " ";
       php.symbol = " ";
       pijul_channel.symbol = " ";
-      pixi.symbol = "󰏗 ";
       python.symbol = " ";
       rlang.symbol = "󰟔 ";
       ruby.symbol = " ";
@@ -159,7 +151,6 @@
       scala.symbol = " ";
       status.symbol = " ";
       swift.symbol = " ";
-      xmake.symbol = " ";
       zig.symbol = " ";
     };
   };
