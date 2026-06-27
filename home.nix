@@ -175,4 +175,32 @@
 	  eval "$(starship init zsh)"
 	'';
   };
+
+  programs.tmux = {
+	enable = true;
+
+	baseIndex = 1;
+	keyMode = "vi";
+	escapeTime = 0;
+  };
+
+  programs.fzf = {
+	enable = true;
+
+	enableZshIntegration = true;
+    tmux.enableShellIntegration = true;
+
+	defaultCommand = "fd --type f --type symlink --hidden --strip-cwd-prefix";
+	defaultOptions = [
+	  "--tiebreak=begin"
+	  "--layout=reverse"
+	  "--height=~40%"
+	  "--ansi"
+	  "--gutter-raw="
+	  "--highlight-line"
+	  "--bind=ctrl-y:accept"
+	  "--color=fg:7,hl:3,fg+:15,bg+:8,hl+:4,marker:10,pointer:0,gutter:0"
+	  "--color=info:8,prompt:8,border:8,spinner:8,header:8"
+    ];
+  };
 }
