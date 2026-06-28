@@ -187,7 +187,6 @@
 	  "--layout=reverse"
 	  "--height=~40%"
 	  "--ansi"
-	  "--gutter-raw="
 	  "--highlight-line"
 	  "--bind=ctrl-y:accept"
 	  "--color=fg:7,hl:3,fg+:15,bg+:8,hl+:4,marker:10,pointer:0,gutter:0"
