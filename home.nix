@@ -4,6 +4,13 @@
 
   home.stateVersion = "24.05";
 
+  programs.neovim = {
+	enable = true;
+	viAlias = true;
+	vimAlias = true;
+	vimdiffAlias = true;
+  };
+
   programs.git = {
 	enable = true;
 
