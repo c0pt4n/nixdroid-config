@@ -41,7 +41,7 @@
       ripgrep
       fd
     ];
-    motd = "Welcome to Nix On Droid!";
+    motd = null;
     sessionVariables = {
       EDITOR = "nvim";
     };
