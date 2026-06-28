@@ -170,6 +170,7 @@
   programs.tmux = {
 	enable = true;
 
+	prefix = "C-a";
 	baseIndex = 1;
 	keyMode = "vi";
 	escapeTime = 0;
