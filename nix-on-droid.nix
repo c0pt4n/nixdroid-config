@@ -3,7 +3,6 @@
 {
 
   environment = {
-    # Backup etc files instead of failing to activate generation if a file already exists in /etc
     packages = with pkgs; [
 	  openssh
       zsh
@@ -89,7 +88,7 @@
   time.timeZone = "Africa/Cairo";
 
   home-manager = {
-    useGlobalPkgs = true;
+    useGlobalPkgs = false;
     useUserPackages = true;
 	backupFileExtension = "hm-backup";
     config = import ./home.nix;
