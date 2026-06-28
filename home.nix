@@ -168,6 +168,8 @@
 	dotDir = ".config/zsh";
 	autocd = true;
 	syntaxHighlighting.enable = true;
+	enableCompletion = true;
+	enableAutosuggestions = true;
 	history.size = 10000;
 	envExtra = ''
 	  eval "$(starship init zsh)"
