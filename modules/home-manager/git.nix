@@ -12,7 +12,7 @@
 		name = "Omar Mohamed";
 		email = "omarcoptan9@gmail.com";
 	  };
-	  aliases = {
+	  alias = {
 		a = "add";
 		co = "checkout";
 		cm = "commit -m";
