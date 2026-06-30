@@ -6,7 +6,6 @@
     packages = with pkgs; [
 	  openssh
       zsh
-      neovim
       procps
 	  coreutils
 	  which
