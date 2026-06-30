@@ -119,6 +119,17 @@
 	envExtra = ''
 	  eval "$(starship init zsh)"
 	'';
+	shellAliases = {
+	  q = "exit";
+	  mkd = "mkdir -pv";
+	  cp = "cp -iv";
+	  ln = "ln -iv";
+	  mv = "mv -iv";
+	  rm = "rm -Iv";
+	  ls = "ls -hF --color=auto --group-directories-first";
+	  ll = "ls -lA";
+	  g = "git";
+	};
   };
 
   programs.tmux = {
