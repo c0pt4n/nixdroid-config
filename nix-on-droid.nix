@@ -91,7 +91,7 @@
     useGlobalPkgs = false;
     useUserPackages = true;
 	backupFileExtension = "hm-backup";
-    config = import ./home.nix;
+    config = import ./modules/home-manager;
   };
 
   # Set up nix for flakes
